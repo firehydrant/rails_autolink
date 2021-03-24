@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
+gemspec
+
 # To test on latest Rails release, use the following:
-gem 'rails'
 gem 'minitest'
+gem 'actionpack'
+gem 'rails-dom-testing'
 
 # To test on Rails 4.0.x release, use the following e.g. for 4.0.1:
 # gem 'rails', '= 4.0.1'
